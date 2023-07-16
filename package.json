@@ -1,5 +1,5 @@
 {
-  "name": "vue3-promise-dialog",
+  "name": "vue3-promise-dialog-without-transition",
   "version": "0.3.4",
   "scripts": {
     "dev": "vite",
@@ -10,13 +10,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/vue3-promise-dialog.umd.js",
+  "main": "./dist/vue3-promise-dialog-without-transition.umd.js",
   "types": "./dist/lib/index.d.ts",
-  "module": "./dist/vue3-promise-dialog.es.js",
+  "module": "./dist/vue3-promise-dialog-without-transition.es.js",
   "exports": {
     ".": {
-      "import": "./dist/vue3-promise-dialog.es.js",
-      "require": "./dist/vue3-promise-dialog.umd.js"
+      "import": "./dist/vue3-promise-dialog-without-transition.es.js",
+      "require": "./dist/vue3-promise-dialog-without-transition.umd.js"
     }
   },
   "dependencies": {
